@@ -34,4 +34,26 @@
     border-bottom: 1px solid black;
 }
 
+/* Media changes | Font-size, Padding, Img */
+@media all and (max-width: 768px) {
+
+   .container * {
+       padding: 2%;
+       font-size: 20px;
+   }
+
+    [class*="col-"] > img {
+        width: auto;
+        height: 70px;
+       }
+}
+
+@media all and (min-width: 769px) and (max-width: 992px) {
+
+    [class*="col-"] > img {
+        width: auto;
+        height: 150px;
+       }
+}
+
 

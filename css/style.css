@@ -29,7 +29,7 @@ p {
 }
 
 [class*="col-"] * {
-  padding: 2% 0;
+  padding: 2%;
 }
 
 [class*="col-"] > img {
